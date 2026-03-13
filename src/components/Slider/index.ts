@@ -1,5 +1,5 @@
 // Re-export component
-export { default } from "./components/Slider"
+export { default } from "./Slider"
 
 // Re-export types (both individual and namespace)
 export type {
@@ -8,5 +8,5 @@ export type {
   SliderCurrentIndexType,
   SliderIsAnimatingType,
   SliderOnAnimationCompleteType,
-} from "./components/Slider"
-export { SliderTypes } from "./components/Slider"
+} from "./types"
+export { default as SliderTypes } from "./types"
